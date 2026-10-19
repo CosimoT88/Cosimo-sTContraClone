@@ -7,7 +7,7 @@ public class InputMovement : MonoBehaviour
     InputAction moveAction;
     InputAction jumpAction;
     public float moveSpeed = 8f;
-    public float jumpForce = 5f;
+    public float jumpForce = 4f;
     public bool playerJumping;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
