@@ -2,15 +2,12 @@ using UnityEngine;
 
 public class InitialVelocity : MonoBehaviour
 {
+    float speed = 20.0f;
+    //public Vector2 velocity = new Vector2(100, 0);  
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        GetComponent < Rigidbody2D >().linearVelocity = transform.right * speed;
     }
 }
