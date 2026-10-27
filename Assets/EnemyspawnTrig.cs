@@ -18,7 +18,7 @@ public class EnemyspawnTrig : MonoBehaviour
         if (collision.GetComponent<Playercontroller>() != null)      
         {
             spawner.isSpawning = true;
-            Debug.Log("Player Found");
+            Debug.Log(gameObject.name + "Player Found");
         }
         
 
@@ -30,7 +30,7 @@ public class EnemyspawnTrig : MonoBehaviour
         if (playerReference  != null)
         {
             spawner.isSpawning = false;
-            Debug.Log("PLAYER GONE");
+            Debug.Log(gameObject.name + "PLAYER GONE");
         }
         
     }

@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 381551727682772464}
   - component: {fileID: 4097026360856272179}
   - component: {fileID: 7289342481711381347}
-  - component: {fileID: 8148281869270198380}
   - component: {fileID: 4247218514406420260}
+  - component: {fileID: 3114804626488729454}
   m_Layer: 0
   m_Name: Arrow (1)
   m_TagString: Untagged
@@ -121,7 +121,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &8148281869270198380
+--- !u!114 &4247218514406420260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2835318680910056287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58668e206ad3cc5408cae41f57c2814a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InitialVelocity
+  speed: 10
+--- !u!61 &3114804626488729454
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -155,7 +168,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.019062638, y: -0.023735866}
+  m_Offset: {x: -0.036595702, y: 0.07594131}
   m_SpriteTilingProperty:
     border: {x: 1.79, y: 2.48, z: 1.78, w: 2.45}
     pivot: {x: 0.5, y: 0.5}
@@ -165,17 +178,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5741687, y: 0.35698065}
+  m_Size: {x: 1.5580747, y: 0.50281143}
   m_EdgeRadius: 0
---- !u!114 &4247218514406420260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2835318680910056287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58668e206ad3cc5408cae41f57c2814a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InitialVelocity
