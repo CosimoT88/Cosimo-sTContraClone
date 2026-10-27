@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class InitialVelocity : MonoBehaviour
 {
-    float speed = 20.0f;
+    public float speed = 20.0f;
     //public Vector2 velocity = new Vector2(100, 0);  
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created

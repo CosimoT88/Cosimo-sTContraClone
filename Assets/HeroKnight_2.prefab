@@ -150,7 +150,6 @@ GameObject:
   - component: {fileID: 1752010932588919152}
   - component: {fileID: 4622097898533163754}
   - component: {fileID: 2614441336741145291}
-  - component: {fileID: 8086349959900842932}
   m_Layer: 0
   m_Name: HeroKnight_2
   m_TagString: Untagged
@@ -313,19 +312,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &8086349959900842932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9135323633890475231}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 722840f64d86adf41b71e5313dbaacfc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InputMovement
-  rb: {fileID: 0}
-  moveSpeed: 8
-  jumpForce: 4
-  playerJumping: 0
