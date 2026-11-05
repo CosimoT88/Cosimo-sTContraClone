@@ -55,7 +55,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 12
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,9 +134,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 105
-        width: 30
-        height: 30
+        y: 111
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +155,10 @@ TextureImporter:
       name: demo03_PixelSky_1
       rect:
         serializedVersion: 2
-        x: 30
-        y: 105
-        width: 30
-        height: 30
+        x: 24
+        y: 111
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,10 +177,10 @@ TextureImporter:
       name: demo03_PixelSky_2
       rect:
         serializedVersion: 2
-        x: 60
-        y: 105
-        width: 30
-        height: 30
+        x: 48
+        y: 111
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,10 +199,10 @@ TextureImporter:
       name: demo03_PixelSky_3
       rect:
         serializedVersion: 2
-        x: 90
-        y: 105
-        width: 30
-        height: 30
+        x: 72
+        y: 111
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,10 +221,10 @@ TextureImporter:
       name: demo03_PixelSky_4
       rect:
         serializedVersion: 2
-        x: 120
-        y: 105
-        width: 30
-        height: 30
+        x: 96
+        y: 111
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,10 +243,10 @@ TextureImporter:
       name: demo03_PixelSky_5
       rect:
         serializedVersion: 2
-        x: 150
-        y: 105
-        width: 30
-        height: 30
+        x: 120
+        y: 111
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +265,10 @@ TextureImporter:
       name: demo03_PixelSky_6
       rect:
         serializedVersion: 2
-        x: 180
-        y: 105
-        width: 30
-        height: 30
+        x: 144
+        y: 111
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,10 +287,10 @@ TextureImporter:
       name: demo03_PixelSky_7
       rect:
         serializedVersion: 2
-        x: 210
-        y: 105
-        width: 30
-        height: 30
+        x: 168
+        y: 111
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +309,10 @@ TextureImporter:
       name: demo03_PixelSky_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 75
-        width: 30
-        height: 30
+        x: 192
+        y: 111
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,10 +331,10 @@ TextureImporter:
       name: demo03_PixelSky_9
       rect:
         serializedVersion: 2
-        x: 30
-        y: 75
-        width: 30
-        height: 30
+        x: 216
+        y: 111
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,10 +353,10 @@ TextureImporter:
       name: demo03_PixelSky_10
       rect:
         serializedVersion: 2
-        x: 60
-        y: 75
-        width: 30
-        height: 30
+        x: 0
+        y: 87
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -375,10 +375,10 @@ TextureImporter:
       name: demo03_PixelSky_11
       rect:
         serializedVersion: 2
-        x: 90
-        y: 75
-        width: 30
-        height: 30
+        x: 24
+        y: 87
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,10 +397,10 @@ TextureImporter:
       name: demo03_PixelSky_12
       rect:
         serializedVersion: 2
-        x: 120
-        y: 75
-        width: 30
-        height: 30
+        x: 48
+        y: 87
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -419,10 +419,10 @@ TextureImporter:
       name: demo03_PixelSky_13
       rect:
         serializedVersion: 2
-        x: 150
-        y: 75
-        width: 30
-        height: 30
+        x: 72
+        y: 87
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -441,10 +441,10 @@ TextureImporter:
       name: demo03_PixelSky_14
       rect:
         serializedVersion: 2
-        x: 180
-        y: 75
-        width: 30
-        height: 30
+        x: 96
+        y: 87
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -463,10 +463,10 @@ TextureImporter:
       name: demo03_PixelSky_15
       rect:
         serializedVersion: 2
-        x: 210
-        y: 75
-        width: 30
-        height: 30
+        x: 120
+        y: 87
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -485,10 +485,10 @@ TextureImporter:
       name: demo03_PixelSky_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 45
-        width: 30
-        height: 30
+        x: 144
+        y: 87
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,10 +507,10 @@ TextureImporter:
       name: demo03_PixelSky_17
       rect:
         serializedVersion: 2
-        x: 30
-        y: 45
-        width: 30
-        height: 30
+        x: 168
+        y: 87
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,10 +529,10 @@ TextureImporter:
       name: demo03_PixelSky_18
       rect:
         serializedVersion: 2
-        x: 60
-        y: 45
-        width: 30
-        height: 30
+        x: 192
+        y: 87
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -551,10 +551,10 @@ TextureImporter:
       name: demo03_PixelSky_19
       rect:
         serializedVersion: 2
-        x: 90
-        y: 45
-        width: 30
-        height: 30
+        x: 216
+        y: 87
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -573,10 +573,10 @@ TextureImporter:
       name: demo03_PixelSky_20
       rect:
         serializedVersion: 2
-        x: 120
-        y: 45
-        width: 30
-        height: 30
+        x: 0
+        y: 63
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -595,10 +595,10 @@ TextureImporter:
       name: demo03_PixelSky_21
       rect:
         serializedVersion: 2
-        x: 150
-        y: 45
-        width: 30
-        height: 30
+        x: 24
+        y: 63
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,10 +617,10 @@ TextureImporter:
       name: demo03_PixelSky_22
       rect:
         serializedVersion: 2
-        x: 180
-        y: 45
-        width: 30
-        height: 30
+        x: 48
+        y: 63
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -639,10 +639,10 @@ TextureImporter:
       name: demo03_PixelSky_23
       rect:
         serializedVersion: 2
-        x: 210
-        y: 45
-        width: 30
-        height: 30
+        x: 72
+        y: 63
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -661,10 +661,10 @@ TextureImporter:
       name: demo03_PixelSky_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 15
-        width: 30
-        height: 30
+        x: 96
+        y: 63
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -683,10 +683,10 @@ TextureImporter:
       name: demo03_PixelSky_25
       rect:
         serializedVersion: 2
-        x: 30
-        y: 15
-        width: 30
-        height: 30
+        x: 120
+        y: 63
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -705,10 +705,10 @@ TextureImporter:
       name: demo03_PixelSky_26
       rect:
         serializedVersion: 2
-        x: 60
-        y: 15
-        width: 30
-        height: 30
+        x: 144
+        y: 63
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -727,10 +727,10 @@ TextureImporter:
       name: demo03_PixelSky_27
       rect:
         serializedVersion: 2
-        x: 90
-        y: 15
-        width: 30
-        height: 30
+        x: 168
+        y: 63
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -749,10 +749,10 @@ TextureImporter:
       name: demo03_PixelSky_28
       rect:
         serializedVersion: 2
-        x: 120
-        y: 15
-        width: 30
-        height: 30
+        x: 192
+        y: 63
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -771,10 +771,10 @@ TextureImporter:
       name: demo03_PixelSky_29
       rect:
         serializedVersion: 2
-        x: 150
-        y: 15
-        width: 30
-        height: 30
+        x: 216
+        y: 63
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -793,10 +793,10 @@ TextureImporter:
       name: demo03_PixelSky_30
       rect:
         serializedVersion: 2
-        x: 180
-        y: 15
-        width: 30
-        height: 30
+        x: 0
+        y: 39
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -815,10 +815,10 @@ TextureImporter:
       name: demo03_PixelSky_31
       rect:
         serializedVersion: 2
-        x: 210
-        y: 15
-        width: 30
-        height: 30
+        x: 24
+        y: 39
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -829,6 +829,402 @@ TextureImporter:
       bones: []
       spriteID: 75f32f53c121b704ca102a644e7e6ed5
       internalID: -1768685025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo03_PixelSky_32
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 39
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe6c7cf337c55c4793769c8a0556caa
+      internalID: 1176950400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo03_PixelSky_33
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 39
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd37530aff13f542888fbe4f488acbe
+      internalID: 576996397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo03_PixelSky_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 39
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29ccab6b0f1da1449920fd83104df2c
+      internalID: -1358603618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo03_PixelSky_35
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 39
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fe67766aa00dc479433fbc58779b8f
+      internalID: 1378115249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo03_PixelSky_36
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 39
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e202c9d41e9d89847a14fcea429d6db8
+      internalID: -1814069672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo03_PixelSky_37
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 39
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2072601ab0d3ec44c8dabd1b8d8e5cea
+      internalID: -1960646459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo03_PixelSky_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 39
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecff98d571fa13f44a1ac1d675b165b9
+      internalID: -1744595230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo03_PixelSky_39
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 39
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6eb52fa5efad940bb817c206e00c01
+      internalID: 823271703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo03_PixelSky_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad42e6311990644ba7dfdb68c3283d8
+      internalID: -215797407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo03_PixelSky_41
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 15
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf30fb00387db074da07011aea9bc109
+      internalID: -167228680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo03_PixelSky_42
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 15
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af50159f743f364296d1ca758015261
+      internalID: 506097030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo03_PixelSky_43
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 15
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2503faecb700f741b8bbd9c6f409ca2
+      internalID: 888676236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo03_PixelSky_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 15
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f008dc78fb15c944b3ca30c4903b224
+      internalID: 1576911397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo03_PixelSky_45
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 15
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a698466afe73a4147842b202af21ba89
+      internalID: -531080788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo03_PixelSky_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 15
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709a48ac82d32d44fa826d382ef9dfb2
+      internalID: 1884066810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo03_PixelSky_47
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 15
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d35d5cfec12844fad9f9eaa14c9fbd
+      internalID: -1913978104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo03_PixelSky_48
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 15
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e974906768e374488a3632e0a9a86b
+      internalID: -122374017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo03_PixelSky_49
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 15
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5430ac08dff0e8d48a814b2c9291402c
+      internalID: 1318014781
       vertices: []
       indices: 
       edges: []
@@ -849,7 +1245,7 @@ TextureImporter:
       - key: SpriteEditor.SliceOnImport
         value: True
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":true,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":30.0,"y":30.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":true,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":24.0,"y":24.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       demo03_PixelSky_0: -1967800831
       demo03_PixelSky_1: 1202292934
@@ -877,7 +1273,25 @@ TextureImporter:
       demo03_PixelSky_3: -1077507939
       demo03_PixelSky_30: -540535836
       demo03_PixelSky_31: -1768685025
+      demo03_PixelSky_32: 1176950400
+      demo03_PixelSky_33: 576996397
+      demo03_PixelSky_34: -1358603618
+      demo03_PixelSky_35: 1378115249
+      demo03_PixelSky_36: -1814069672
+      demo03_PixelSky_37: -1960646459
+      demo03_PixelSky_38: -1744595230
+      demo03_PixelSky_39: 823271703
       demo03_PixelSky_4: 1682568775
+      demo03_PixelSky_40: -215797407
+      demo03_PixelSky_41: -167228680
+      demo03_PixelSky_42: 506097030
+      demo03_PixelSky_43: 888676236
+      demo03_PixelSky_44: 1576911397
+      demo03_PixelSky_45: -531080788
+      demo03_PixelSky_46: 1884066810
+      demo03_PixelSky_47: -1913978104
+      demo03_PixelSky_48: -122374017
+      demo03_PixelSky_49: 1318014781
       demo03_PixelSky_5: 1268110950
       demo03_PixelSky_6: 1527577997
       demo03_PixelSky_7: 570462344
