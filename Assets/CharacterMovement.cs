@@ -1,39 +1,50 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
-
-public class InputMovement : MonoBehaviour
+public class CharacterMovement : MonoBehaviour
 {
     public Rigidbody2D rb;
-    InputAction moveAction;
-    InputAction jumpAction;
     public float moveSpeed = 8f;
     public float jumpForce = 4f;
-    public bool playerJumping;
+    public bool isGrounded=false;
+    public Vector2 moveInputDir;
+
+    public bool isJumpRequested=false; 
+    
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        moveAction = InputSystem.actions.FindAction("Move");
-        jumpAction = InputSystem.actions.FindAction("Jump");
+      
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector2 moveInputDir = moveAction.ReadValue<Vector2>();
-
         rb.linearVelocityX = moveInputDir.x * moveSpeed;
-
-        if (jumpAction.WasPressedThisFrame() && !playerJumping)
+        if (isJumpRequested)
         {
-            rb.linearVelocityY = jumpForce;
-            playerJumping = true;
+            Jump();
         }
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    public void Jump()
     {
-        playerJumping = false;
+        if (isGrounded)
+        {
+            rb.linearVelocityY = jumpForce;
+            isJumpRequested = false;
+        }
+    }
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        isGrounded = false;
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        isGrounded = true;
     }
 
 }
