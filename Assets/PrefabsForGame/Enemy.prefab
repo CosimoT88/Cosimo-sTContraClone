@@ -171,9 +171,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be7f631cd490dac4194b89d06ca3d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerCode
-  prefabtoSpawn: {fileID: 2835318680910056287, guid: b89b9fca0b9b6a741baeff056622e7f6, type: 3}
+  prefabtoSpawn: {fileID: 672637521485313577, guid: 00ccf65f265f0bf489969bf9e20cc96b, type: 3}
   secondspass: 0
-  spawnIntervalSecs: 5
+  spawnIntervalSecs: 3
   isSpawning: 1
 --- !u!1001 &7862455667445526189
 PrefabInstance:
