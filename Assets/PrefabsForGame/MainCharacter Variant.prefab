@@ -252,7 +252,7 @@ PrefabInstance:
       addedObject: {fileID: 211507174103687441}
     - targetCorrespondingSourceObject: {fileID: 9135323633890475231, guid: b328c32f89f28104783d73caae324608, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8171122797034964897}
+      addedObject: {fileID: 610812921768474342}
   m_SourcePrefab: {fileID: 100100000, guid: b328c32f89f28104783d73caae324608, type: 3}
 --- !u!1 &174264145907988072 stripped
 GameObject:
@@ -272,7 +272,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   bow: {fileID: 2395221268301134028}
---- !u!114 &8171122797034964897
+  movement: {fileID: 0}
+--- !u!114 &610812921768474342
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -283,11 +284,13 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 722840f64d86adf41b71e5313dbaacfc, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InputMovement
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterMovement
   rb: {fileID: 6405368453278376060}
   moveSpeed: 8
-  jumpForce: 8
-  playerJumping: 0
+  jumpForce: 10
+  isGrounded: 0
+  moveInputDir: {x: 0, y: 0}
+  isJumpRequested: 0
 --- !u!4 &2216417615975469933 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7092712242990930394, guid: b328c32f89f28104783d73caae324608, type: 3}

@@ -6,7 +6,6 @@ public class Playercontroller : MonoBehaviour
 
     public SpawnerCode bow;
     public CharacterMovement movement;
-
     InputAction attackAction;
     InputAction AimAction;  //the input to allow player to aim
     InputAction jumpAction;
