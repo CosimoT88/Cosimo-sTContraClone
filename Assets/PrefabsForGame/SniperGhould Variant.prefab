@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner
       objectReference: {fileID: 0}
+    - target: {fileID: 1228466132261350210, guid: 5d9bd69d7a6d2454f9862e2bc7eaf513, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1389564351388089159, guid: 5d9bd69d7a6d2454f9862e2bc7eaf513, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -152,7 +156,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9135323633890475231, guid: b328c32f89f28104783d73caae324608, type: 3}
       propertyPath: m_Name
-      value: Runner Variant
+      value: SniperGhould Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 9135323633890475231, guid: b328c32f89f28104783d73caae324608, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

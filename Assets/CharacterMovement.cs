@@ -6,6 +6,8 @@ public class CharacterMovement : MonoBehaviour
     public float jumpForce = 4f;
     public bool isGrounded=false;
     public Vector2 moveInputDir;
+    public Transform GroundChecker;
+    int terrainLayerMask;
 
     public bool isJumpRequested=false; 
     
@@ -25,6 +27,13 @@ public class CharacterMovement : MonoBehaviour
         {
             Jump();
         }
+        Collider2D groundCollision = Physics2D.OverlapCircle(
+            (Vector2)GroundChecker.position,
+            0.2f,
+            terrainLayerMask
+            );
+        bool groundAhead = groundCollision != null;
+       
     }
 
     public void Jump()
