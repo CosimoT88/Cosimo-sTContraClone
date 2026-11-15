@@ -16,7 +16,7 @@ public class CharacterMovement : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-      
+        terrainLayerMask = LayerMask.GetMask("Terrain");
     }
 
     // Update is called once per frame
@@ -28,12 +28,13 @@ public class CharacterMovement : MonoBehaviour
             Jump();
         }
         Collider2D groundCollision = Physics2D.OverlapCircle(
-            (Vector2)GroundChecker.position,
-            0.2f,
-            terrainLayerMask
-            );
-        bool groundAhead = groundCollision != null;
-       
+        GroundChecker.position,
+        0.2f,
+        terrainLayerMask
+        );
+
+        isGrounded = groundCollision != null;
+
     }
 
     public void Jump()
@@ -48,12 +49,12 @@ public class CharacterMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        isGrounded = false;
+        isGrounded = true;
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        isGrounded = true;
+        isGrounded = false ;
     }
 
 }
