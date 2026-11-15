@@ -23,7 +23,7 @@ public class AiController : MonoBehaviour
         //Checks for a wall
         RaycastHit2D rayCollision = Physics2D.CapsuleCast(
             transform.position,
-            new Vector2(0.6f, 0.3f),
+            new Vector2(0.3f, 0.6f),
             CapsuleDirection2D.Vertical,
             0,
            movement.moveInputDir,
@@ -43,12 +43,12 @@ public class AiController : MonoBehaviour
         //if no ground ahead, then jump
         Collider2D groundCollision = Physics2D.OverlapCircle(
             (Vector2)GroundChecker.position + movement.moveInputDir * lookaheadDistant,
-            0.1f, 
+            0.2f, 
             terrainLayerMask
             );
         bool groundAhead = groundCollision != null;
 
-        if (!groundAhead)
+        if (!groundAhead && movement.isGrounded)
         {
             movement.Jump();
         }
