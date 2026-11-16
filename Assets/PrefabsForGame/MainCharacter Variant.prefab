@@ -238,7 +238,8 @@ PrefabInstance:
       value: MainCharacter Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4137420848183193817, guid: b328c32f89f28104783d73caae324608, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7092712242990930394, guid: b328c32f89f28104783d73caae324608, type: 3}
       insertIndex: -1
@@ -290,6 +291,7 @@ MonoBehaviour:
   jumpForce: 10
   isGrounded: 0
   moveInputDir: {x: 0, y: 0}
+  GroundChecker: {fileID: 0}
   isJumpRequested: 0
 --- !u!4 &2216417615975469933 stripped
 Transform:

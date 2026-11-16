@@ -132,7 +132,7 @@ MonoBehaviour:
   jumpForce: 4
   isGrounded: 0
   moveInputDir: {x: 0, y: 0}
-  GroundChecker: {fileID: 0}
+  GroundChecker: {fileID: 5824545890260634700}
   isJumpRequested: 0
 --- !u!114 &109272947609676254
 MonoBehaviour:
