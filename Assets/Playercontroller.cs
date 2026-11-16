@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 public class Playercontroller : MonoBehaviour
 {
-
+    public Camera camera;
     public SpawnerCode bow;
     public CharacterMovement movement;
     InputAction attackAction;
@@ -37,5 +37,19 @@ public class Playercontroller : MonoBehaviour
         {
             movement.Jump();
         }
+
+
     }
+
+    public void GameOver()
+    {
+        // for losing the game
+
+        // play animations for death (future)
+        //detach camera from player
+
+        camera.transform.SetParent(null);
+    }
+
+
 }
