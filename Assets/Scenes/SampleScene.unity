@@ -171,7 +171,6 @@ GameObject:
   - component: {fileID: 61074347}
   - component: {fileID: 61074350}
   - component: {fileID: 61074349}
-  - component: {fileID: 61074348}
   m_Layer: 0
   m_Name: Behind
   m_TagString: Untagged
@@ -194,25 +193,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 606650088}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &61074348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61074346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 722840f64d86adf41b71e5313dbaacfc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InputMovement
-  rb: {fileID: 0}
-  moveSpeed: 8
-  jumpForce: 4
-  isGrounded: 0
-  moveInputDir: {x: 0, y: 0}
-  GroundChecker: {fileID: 0}
-  isJumpRequested: 0
 --- !u!483693784 &61074349
 TilemapRenderer:
   serializedVersion: 2
@@ -10911,7 +10891,6 @@ GameObject:
   - component: {fileID: 687324673}
   - component: {fileID: 687324675}
   - component: {fileID: 687324674}
-  - component: {fileID: 687324676}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -45744,25 +45723,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &687324676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 687324672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 722840f64d86adf41b71e5313dbaacfc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InputMovement
-  rb: {fileID: 0}
-  moveSpeed: 8
-  jumpForce: 4
-  isGrounded: 0
-  moveInputDir: {x: 0, y: 0}
-  GroundChecker: {fileID: 0}
-  isJumpRequested: 0
 --- !u!50 &739562752 stripped
 Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 6405368453278376060, guid: cf33fa8e3389ece42805c2476c6b5870, type: 3}
@@ -51120,6 +51080,10 @@ PrefabInstance:
     - target: {fileID: 5489430521456198212, guid: cf33fa8e3389ece42805c2476c6b5870, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261308168886669519, guid: cf33fa8e3389ece42805c2476c6b5870, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
