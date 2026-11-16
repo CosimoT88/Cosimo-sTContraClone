@@ -5,7 +5,7 @@ public class AiController : MonoBehaviour
 {
     public CharacterMovement movement;
 
-    float timer = 2;
+    public float timer = 2;
     int terrainLayerMask;
     public float lookaheadDistant = 0.5f;
     public Transform GroundChecker;
